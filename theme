@@ -1,0 +1,134 @@
+# Test
+/------------------------1)bayoux-lily.css-----------------/
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;
+  --clr-primary: #3a5083;
+  --clr-secondary: #83064b;
+  --clr-light: #fff;
+  --clr-dark: #533d3d;
+  --clr-gray: #493d3d;
+  --clr-menu: #f0cdcd;
+  --radius: 5px;
+}
+
+
+.dd-header.sticky::before , .dd-header.sticky::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 50%;
+}
+.dd-header.sticky::before {
+  background-color: var(--clr-primary);
+  left: -50%;
+}
+.dd-header.sticky::after {
+  background-color: var(--clr-secondary);
+  right: -50%;
+}
+
+/---------------------2) blue-purple.cuss -------------------/
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;  
+  --clr-primary: #05144b;
+  --clr-secondary: #2927b9;
+  --clr-light: #fff;
+  --clr-dark: #553f3f;
+  --clr-gray: #695454;
+  --clr-menu: #cea4a4;
+  --radius: 5px;
+}
+
+/---------------------3)green-gold.css -----------------------/
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;
+
+  --clr-primary: #048858;
+  --clr-secondary: #ecc19c;
+
+  --clr-light: #fff;
+  --clr-dark: #4c4c4c;
+  --clr-gray: #6c6c6c;
+  --clr-menu: #3c3c3c;
+  --radius: 5px;
+}
+
+/--------------------4) lavender-spray.css----------------------/
+:root {
+  --font-title: 'Source Sans Pro', sans-serif;
+  --font-content: 'Source Sans Pro', sans-serif;
+  --clr-primary: #7358ec;
+  --clr-secondary: #54cbe9;
+  --clr-light: #fff;
+  --clr-dark: #462d2d;
+  --clr-gray: #695959;
+  --clr-menu: #503d3d;
+  --radius: 5px;
+}
+
+.dd-header.sticky::before , .dd-header.sticky::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 50%;
+}
+.dd-header.sticky::before {
+  background-color: var(--clr-primary);
+  left: -50%;
+}
+.dd-header.sticky::after {
+  background-color: var(--clr-secondary);
+  right: -50%;
+}
+
+/------------------------5) pink-orange.css-------------------------/
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;
+
+  --clr-primary: #cf0f69;
+  --clr-secondary: #c9cc07; 
+
+  --clr-light: #fcefef;
+  --clr-dark: #a38686;
+  --clr-gray: #7c5858;
+  --clr-menu: #ebadad;
+  --radius: 5px;
+}
+
+/---------------------------6) purple-pink.css----------------------------/
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;
+ 
+  --clr-primary: #c23c9a;
+  --clr-secondary: #740fd3;
+
+  --clr-light: #fff;
+  --clr-dark: #615d5d;
+  --clr-gray: #6c6c6c;
+  --clr-menu: #cecece;
+  --radius: 5px;
+}
+
+/-------------------------7) techmates.css---------------------------/
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;
+  
+  --clr-primary: #c42d13;
+  --clr-secondary: #304250;
+
+  --clr-light: #fff;
+  --clr-dark: #4c4c4c;
+  --clr-gray: #6c6c6c;
+  --clr-menu: #cecece;
+  --radius: 5px;
+}
